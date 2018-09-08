@@ -1,0 +1,93 @@
+@media only screen and (min-width: 600px) {
+    .bodycontainer {
+        font-size: 16px;
+        color: #ffffff;
+        padding-left: 0px 10px 10px 10px;
+        overflow: auto; 
+        background-size: 100%;
+        background: url('../images/Hollywood.jpg');
+        background-repeat: no-repeat;
+        font-family: Arial, Helvetica Neue, Helvetica, sans-serif;        
+    }
+}
+@media only screen and (max-width: 599px) {
+    .bodycontainer {
+        font-size: 18px;
+        font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+        padding-left: 0px 10px 10px 10px;
+        display: block;
+        overflow: auto; 
+        margin-bottom: 50px;
+        align-self: center;
+        background-color: #111111; 
+        background-repeat: no-repeat;
+        background-size: 100%;        
+    }
+}
+@media only screen and (min-width: 600px) {
+    .container {
+        color: #ffffff;
+        align-self: center;
+    }
+}
+.selected {
+    color: #0e0d0d;
+}
+
+.questions {
+    color: #0e0d0d;
+}
+
+.modal-header {
+    background-color: #066388;
+    color: #ffffff;
+}
+
+.modal-footer {
+    background-color: #066388;
+    color: #0e0a0a;
+}
+
+#match-img {
+    height: 150px;
+    width: 200px;
+}
+
+@media only screen and (min-width: 600px) {
+    .surveycontainer {
+        color: #ffffff;
+        background: url('../images/oscarsbanner.jpg');
+        background-repeat: no-repeat;
+        font-size: 10px;
+        background-size: 100% 100%;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #ffffff;
+        text-align: center;
+    }
+}
+
+.fade.in {
+    opacity: 1;
+  }
+  .modal.in .modal-dialog {
+    -webkit-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+  
+  .modal-backdrop .fade .in {
+    opacity: 0.5 !important;
+  }
+  
+  
+  .modal-backdrop.fade {
+      opacity: 0.5 !important;
+}
